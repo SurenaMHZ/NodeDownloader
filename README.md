@@ -1,6 +1,6 @@
 # :octocat: Node Downloader
 
-Node Downloader is a plugin for Construct 3 game engine that allows you to download a file from a URL and save it in the player's PC.
+Node Downloader is a plugin for Construct 3 and construct 2 game engine that allows you to download a file from a URL and save it in the player's PC.
 
 :exclamation: Node Downloader only works with [NW.js](http://nwjs.io) (and [Electron](http://electron.atom.io)).
 ## Actions
