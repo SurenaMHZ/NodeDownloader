@@ -1,5 +1,4 @@
 # :octocat: Node Downloader
-In the name of God, the Beneficent the Merciful.
 
 Node Downloader is a plugin for Construct 3 game engine that allows you to download a file from a URL and save it in the player's PC.
 
@@ -13,6 +12,7 @@ Starts download a file.
 | Tag       | An optional name to distinguish between downloads |
 | URL       | URL of file that is to be downloaded              |
 | Path      | Location that downloaded file will be saved to it |
+| Name      | The name with which the file is downloaded and saved |
 
 ## Conditions
 #### On completed
@@ -54,6 +54,18 @@ Get the total size of the file, in bytes. This expression is only accessible whe
 ___
 #### downloadedsize(tag)
 Get the total downloaded size of the file, in bytes. This expression is only accessible when downloading is in progress. So you can use it in `On progress` or `On completed` events. After that, it returns `0`.
+
+| Parameter | Explanation                                       |
+| --------- | ------------------------------------------------- |
+| Tag       | An optional name to distinguish between downloads |
+
+#### filename(tag)
+
+| Parameter | Explanation                                       |
+| --------- | ------------------------------------------------- |
+| Tag       | An optional name to distinguish between downloads |
+
+#### filetype(tag)
 
 | Parameter | Explanation                                       |
 | --------- | ------------------------------------------------- |
